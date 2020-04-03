@@ -1,0 +1,553 @@
+﻿RP/0/RP0:CHANGEME#
+RP/0/RP0:CHANGEME#
+RP/0/RP0:CHANGEME#Term len 0 
+
+Wed Mar 25 18:25:03.257 UTC
+Show inventory 
+
+Sh install active 
+
+Sho install inactive 
+
+Sho install committed 
+RP/0/RP0:CHANGEME#
+RP/0/RP0:CHANGEME#Show inventory 
+
+Wed Mar 25 18:25:03.384 UTC
+Sho version 
+
+Sho hw-module fpd 
+
+Show platform 
+
+Show install sup 
+
+NAME: "0/RP0", DESCR: "NCS 4000 Router Processor and Controller (32G RAM)             "
+PID: NCS4K-RP          , VID: V08 , SN: CAT2403B1UV
+
+Show run 
+NAME: "0/RP1", DESCR: "NCS 4000 Router Processor and Controller (32G RAM)             "
+PID: NCS4K-RP          , VID: V08 , SN: CAT2403B1UZ
+
+NAME: "0/FC0", DESCR: "NCS 4009 Fabric - Single-chassis - V2"
+PID: NCS4009-FC2F-S    , VID: V01, SN: CAT2349B02N
+
+NAME: "0/FC1", DESCR: "NCS 4009 Fabric - Single-chassis - V2"
+PID: NCS4009-FC2F-S    , VID: V01, SN: CAT2349B049
+
+NAME: "0/FC2", DESCR: "NCS 4009 Fabric - Single-chassis - V2"
+PID: NCS4009-FC2F-S    , VID: V01, SN: CAT2349B04C
+
+NAME: "0/FC3", DESCR: "NCS 4009 Fabric - Single-chassis - V2"
+PID: NCS4009-FC2F-S    , VID: V01, SN: CAT2349B05H
+
+NAME: "0/CI0", DESCR: "NCS 4000 Craft Panel"
+PID: NCS4K-CRAFT       , VID: V03, SN: SAL2340005R
+
+NAME: "0/EC0", DESCR: "NCS 4000 External Connection Unit"
+PID: NCS4K-ECU         , VID: V01, SN: SAL2341017B
+
+NAME: "Rack 0", DESCR: "ECU-DISK-SSD0"
+PID: NCS4K-SSD-100G    , VID: V00, SN: MSA233401YU
+
+NAME: "Rack 0", DESCR: "ECU-DISK-SSD1"
+PID: NCS4K-SSD-100G    , VID: V00, SN: MSA233401XS
+
+NAME: "Rack 0", DESCR: "NCS 4009 shelf assembly - DC Power"
+PID: NCS4009-SA-DC     , VID: V03, SN: SAL2342004V
+
+NAME: "0/FT0", DESCR: "NCS 4000 Fan Tray Assembly"
+PID: NCS4K-FTA         , VID: V04, SN: SAL2339025Y
+
+NAME: "0/FT2", DESCR: "NCS 4009 Fan for Fabric"
+PID: NCS4009-FAN-FC    , VID: V01, SN: CAT2345B0CR
+
+NAME: "0/FT3", DESCR: "NCS 4009 Fan for Fabric"
+PID: NCS4009-FAN-FC    , VID: V01, SN: CAT2345B0BD
+
+NAME: "0/FT4", DESCR: "NCS 4009 Fan for Fabric"
+PID: NCS4009-FAN-FC    , VID: V01, SN: CAT2348B3E5
+
+NAME: "0/FT5", DESCR: "NCS 4009 Fan for Fabric"
+PID: NCS4009-FAN-FC    , VID: V01, SN: CAT2345B0CJ
+
+NAME: "0/PT0", DESCR: "NCS 4000 DC Power Entry Module"
+PID: NCS4K-DC-PEM      , VID: V03, SN: SAL234101BZ
+
+NAME: "0/PT0-PM0", DESCR: "NCS 4000 DC Power System Unit -1750 W - Balanced A and B"
+PID: NCS4K-DC-PSU-V1   , VID: V01, SN: DTM234600HG
+
+NAME: "0/PT0-PM1", DESCR: "NCS 4000 DC Power System Unit -1750 W - Balanced A and B"
+PID: NCS4K-DC-PSU-V1   , VID: V01, SN: DTM2346006R
+
+NAME: "0/PT0-PM2", DESCR: "NCS 4000 DC Power System Unit -1750 W - Balanced A and B"
+PID: NCS4K-DC-PSU-V1   , VID: V01, SN: DTM234600B1
+
+NAME: "0/PT0-PM3", DESCR: "NCS 4000 DC Power System Unit -1750 W - Balanced A and B"
+PID: NCS4K-DC-PSU-V1   , VID: V01, SN: DTM234600MD
+
+NAME: "0/PT1", DESCR: "NCS 4000 DC Power Entry Module"
+PID: NCS4K-DC-PEM      , VID: V03, SN: SAL234000PW
+
+NAME: "0/PT1-PM0", DESCR: "NCS 4000 DC Power System Unit -1750 W - Balanced A and B"
+PID: NCS4K-DC-PSU-V1   , VID: V01, SN: DTM234600XK
+
+NAME: "0/PT1-PM1", DESCR: "NCS 4000 DC Power System Unit -1750 W - Balanced A and B"
+PID: NCS4K-DC-PSU-V1   , VID: V01, SN: DTM234600XE
+
+NAME: "0/PT1-PM2", DESCR: "NCS 4000 DC Power System Unit -1750 W - Balanced A and B"
+PID: NCS4K-DC-PSU-V1   , VID: V01, SN: DTM234600D8
+
+NAME: "0/PT1-PM3", DESCR: "NCS 4000 DC Power System Unit -1750 W - Balanced A and B"
+PID: NCS4K-DC-PSU-V1   , VID: V01, SN: DTM2346008P
+
+RP/0/RP0:CHANGEME#
+RP/0/RP0:CHANGEME#Sh install active 
+Wed Mar 25 18:25:04.180 UTC
+Node 0/RP0 [RP]
+  Boot Partition: xr_lv0
+  Active Packages: 4
+        ncs4k-xr-6.5.26 version=6.5.26 [Boot image]
+        ncs4k-k9sec-6.5.26
+        ncs4k-mgbl-6.5.26
+        ncs4k-mpls-6.5.26
+
+Node 0/RP1 [RP]
+  Boot Partition: xr_lv0
+  Active Packages: 4
+        ncs4k-xr-6.5.26 version=6.5.26 [Boot image]
+        ncs4k-k9sec-6.5.26
+        ncs4k-mgbl-6.5.26
+        ncs4k-mpls-6.5.26
+
+Node 0/LC0 [LC]
+  Boot Partition: xr_lcp_lv0
+  Active Packages: 4
+        ncs4k-xr-6.5.26 version=6.5.26 [Boot image]
+        ncs4k-k9sec-6.5.26
+        ncs4k-mgbl-6.5.26
+        ncs4k-mpls-6.5.26
+
+Node 0/LC1 [LC]
+  Boot Partition: xr_lcp_lv0
+  Active Packages: 4
+        ncs4k-xr-6.5.26 version=6.5.26 [Boot image]
+        ncs4k-k9sec-6.5.26
+        ncs4k-mgbl-6.5.26
+        ncs4k-mpls-6.5.26
+
+RP/0/RP0:CHANGEME#
+RP/0/RP0:CHANGEME#Sho install inactive 
+Wed Mar 25 18:25:04.830 UTC
+No inactive package(s) in software repository
+RP/0/RP0:CHANGEME#
+RP/0/RP0:CHANGEME#Sho install committed 
+Wed Mar 25 18:25:05.145 UTC
+Node 0/RP0 [RP]
+  Boot Partition: xr_lv0
+  Committed Packages: 4
+        ncs4k-xr-6.5.26 version=6.5.26 [Boot image]
+        ncs4k-k9sec-6.5.26
+        ncs4k-mgbl-6.5.26
+        ncs4k-mpls-6.5.26
+
+Node 0/RP1 [RP]
+  Boot Partition: xr_lv0
+  Committed Packages: 4
+        ncs4k-xr-6.5.26 version=6.5.26 [Boot image]
+        ncs4k-k9sec-6.5.26
+        ncs4k-mgbl-6.5.26
+        ncs4k-mpls-6.5.26
+
+Node 0/LC0 [LC]
+  Boot Partition: xr_lcp_lv0
+  Committed Packages: 4
+        ncs4k-xr-6.5.26 version=6.5.26 [Boot image]
+        ncs4k-k9sec-6.5.26
+        ncs4k-mgbl-6.5.26
+        ncs4k-mpls-6.5.26
+
+Node 0/LC1 [LC]
+  Boot Partition: xr_lcp_lv0
+  Committed Packages: 4
+        ncs4k-xr-6.5.26 version=6.5.26 [Boot image]
+        ncs4k-k9sec-6.5.26
+        ncs4k-mgbl-6.5.26
+        ncs4k-mpls-6.5.26
+
+RP/0/RP0:CHANGEME#
+RP/0/RP0:CHANGEME#Sho version 
+Wed Mar 25 18:25:05.356 UTC
+Cisco IOS XR Software, Version 6.5.26
+Copyright (c) 2013-2019 by Cisco Systems, Inc.
+
+Build Information:
+ Built By     : ahoang
+ Built On     : Fri Sep 13 13:33:51 PDT 2019
+ Built Host   : iox-lnx-060
+ Workspace    : /auto/srcarchive11/prod/6.5.26/ncs4k/ws
+ Version      : 6.5.26
+ Location     : /opt/cisco/XR/packages/
+
+cisco NCS-4000 () processor
+System uptime is 1 hour 11 minutes
+
+RP/0/RP0:CHANGEME#
+RP/0/RP0:CHANGEME#Sho hw-module fpd 
+Wed Mar 25 18:25:05.508 UTC
+                                                               FPD Versions
+                                                               =================
+Location   Card type        HWver FPD device       ATR Status   Running Programd
+------------------------------------------------------------------------------
+0/RP0     NCS4K-RP          1.0   Backup-BIOS      BSP CURRENT           14.02  
+0/RP0     NCS4K-RP          1.0   Backup-CCC-PwrOn BSP CURRENT            1.17  
+0/RP0     NCS4K-RP          1.0   Backup-EthSwitch BSP CURRENT            1.36  
+0/RP0     NCS4K-RP          1.0   Backup-Timing    BSP CURRENT            3.50  
+0/RP0     NCS4K-RP          1.0   BP-FPGA              CURRENT    3.21    3.21  
+0/RP0     NCS4K-RP          1.0   CCC-Bootloader   BSP CURRENT            4.21  
+0/RP0     NCS4K-RP          1.0   CCC-FPGA          S  CURRENT    4.29    4.29  
+0/RP0     NCS4K-RP          1.0   CCC-Power-On      S  CURRENT    1.23    1.23  
+0/RP0     NCS4K-RP          1.0   CPU-Complex-Boot BSP CURRENT            2.04  
+0/RP0     NCS4K-RP          1.0   CPU-Complex-FPGA  S  CURRENT    2.09    2.09  
+0/RP0     NCS4K-RP          1.0   Ethernet-Switch   S  CURRENT    1.36    1.36  
+0/RP0     NCS4K-RP          1.0   PLX-8649             CURRENT    0.08    0.08  
+0/RP0     NCS4K-RP          1.0   PLX-8696             CURRENT    0.05    0.05  
+0/RP0     NCS4K-RP          1.0   Primary-BIOS      S  CURRENT   14.04   14.04  
+0/RP0     NCS4K-RP          1.0   Timing-FPGA       S  CURRENT    3.95    3.95  
+0/RP1     NCS4K-RP          1.0   Backup-BIOS      BSP CURRENT           14.02  
+0/RP1     NCS4K-RP          1.0   Backup-CCC-PwrOn BSP CURRENT            1.17  
+0/RP1     NCS4K-RP          1.0   Backup-EthSwitch BSP CURRENT            1.36  
+0/RP1     NCS4K-RP          1.0   Backup-Timing    BSP CURRENT            3.50  
+0/RP1     NCS4K-RP          1.0   BP-FPGA              CURRENT    3.21    3.21  
+0/RP1     NCS4K-RP          1.0   CCC-Bootloader   BSP CURRENT            4.21  
+0/RP1     NCS4K-RP          1.0   CCC-FPGA          S  CURRENT    4.29    4.29  
+0/RP1     NCS4K-RP          1.0   CCC-Power-On      S  CURRENT    1.23    1.23  
+0/RP1     NCS4K-RP          1.0   CPU-Complex-Boot BSP CURRENT            2.04  
+0/RP1     NCS4K-RP          1.0   CPU-Complex-FPGA  S  CURRENT    2.09    2.09  
+0/RP1     NCS4K-RP          1.0   Ethernet-Switch   S  CURRENT    1.36    1.36  
+0/RP1     NCS4K-RP          1.0   PLX-8649             CURRENT    0.08    0.08  
+0/RP1     NCS4K-RP          1.0   PLX-8696             CURRENT    0.05    0.05  
+0/RP1     NCS4K-RP          1.0   Primary-BIOS      S  CURRENT   14.04   14.04  
+0/RP1     NCS4K-RP          1.0   Timing-FPGA       S  CURRENT    3.95    3.95  
+0/FC0     NCS4009-FC2F-S    1.0   CCC-FPGA             CURRENT    2.05    2.05  
+0/FC0     NCS4009-FC2F-S    1.0   CCC-Power-On         CURRENT    1.03    1.03  
+0/FC0     NCS4009-FC2F-S    1.0   PLX-8714             CURRENT    0.04    0.04  
+0/FC1     NCS4009-FC2F-S    1.0   CCC-FPGA             CURRENT    2.05    2.05  
+0/FC1     NCS4009-FC2F-S    1.0   CCC-Power-On         CURRENT    1.03    1.03  
+0/FC1     NCS4009-FC2F-S    1.0   PLX-8714             CURRENT    0.04    0.04  
+0/FC2     NCS4009-FC2F-S    1.0   CCC-FPGA             CURRENT    2.05    2.05  
+0/FC2     NCS4009-FC2F-S    1.0   CCC-Power-On         CURRENT    1.03    1.03  
+0/FC2     NCS4009-FC2F-S    1.0   PLX-8714             CURRENT    0.04    0.04  
+0/FC3     NCS4009-FC2F-S    1.0   CCC-FPGA             CURRENT    2.05    2.05  
+0/FC3     NCS4009-FC2F-S    1.0   CCC-Power-On         CURRENT    1.03    1.03  
+0/FC3     NCS4009-FC2F-S    1.0   PLX-8714             CURRENT    0.04    0.04  
+0/CI0     NCS4K-CRAFT       0.1   Craft-NCS4009        CURRENT    1.04    1.04  
+0/FT0     NCS4K-FTA         0.1   Fantray-FPGA         CURRENT    3.01    3.01  
+0/PT0     NCS4K-DC-PSU-V1   1.0   PM0-DT-Pri2MCU       CURRENT    3.02    3.02  
+0/PT0     NCS4K-DC-PSU-V1   1.0   PM0-DT-PriMCU        CURRENT    3.02    3.02  
+0/PT0     NCS4K-DC-PSU-V1   1.0   PM0-DT-Sec54v2MCU    CURRENT    3.01    3.01  
+0/PT0     NCS4K-DC-PSU-V1   1.0   PM0-DT-Sec54vMCU     CURRENT    3.01    3.01  
+0/PT0     NCS4K-DC-PSU-V1   1.0   PM0-DT-Sec5vMCU      CURRENT    3.08    3.08  
+0/PT0     NCS4K-DC-PSU-V1   1.0   PM1-DT-Pri2MCU       CURRENT    3.02    3.02  
+0/PT0     NCS4K-DC-PSU-V1   1.0   PM1-DT-PriMCU        CURRENT    3.02    3.02  
+0/PT0     NCS4K-DC-PSU-V1   1.0   PM1-DT-Sec54v2MCU    CURRENT    3.01    3.01  
+0/PT0     NCS4K-DC-PSU-V1   1.0   PM1-DT-Sec54vMCU     CURRENT    3.01    3.01  
+0/PT0     NCS4K-DC-PSU-V1   1.0   PM1-DT-Sec5vMCU      CURRENT    3.08    3.08  
+0/PT0     NCS4K-DC-PSU-V1   1.0   PM2-DT-Pri2MCU       CURRENT    3.02    3.02  
+0/PT0     NCS4K-DC-PSU-V1   1.0   PM2-DT-PriMCU        CURRENT    3.02    3.02  
+0/PT0     NCS4K-DC-PSU-V1   1.0   PM2-DT-Sec54v2MCU    CURRENT    3.01    3.01  
+0/PT0     NCS4K-DC-PSU-V1   1.0   PM2-DT-Sec54vMCU     CURRENT    3.01    3.01  
+0/PT0     NCS4K-DC-PSU-V1   1.0   PM2-DT-Sec5vMCU      CURRENT    3.08    3.08  
+0/PT0     NCS4K-DC-PSU-V1   1.0   PM3-DT-Pri2MCU       CURRENT    3.02    3.02  
+0/PT0     NCS4K-DC-PSU-V1   1.0   PM3-DT-PriMCU        CURRENT    3.02    3.02  
+0/PT0     NCS4K-DC-PSU-V1   1.0   PM3-DT-Sec54v2MCU    CURRENT    3.01    3.01  
+0/PT0     NCS4K-DC-PSU-V1   1.0   PM3-DT-Sec54vMCU     CURRENT    3.01    3.01  
+0/PT0     NCS4K-DC-PSU-V1   1.0   PM3-DT-Sec5vMCU      CURRENT    3.08    3.08  
+0/PT1     NCS4K-DC-PSU-V1   1.0   PM0-DT-Pri2MCU       CURRENT    3.02    3.02  
+0/PT1     NCS4K-DC-PSU-V1   1.0   PM0-DT-PriMCU        CURRENT    3.02    3.02  
+0/PT1     NCS4K-DC-PSU-V1   1.0   PM0-DT-Sec54v2MCU    CURRENT    3.01    3.01  
+0/PT1     NCS4K-DC-PSU-V1   1.0   PM0-DT-Sec54vMCU     CURRENT    3.01    3.01  
+0/PT1     NCS4K-DC-PSU-V1   1.0   PM0-DT-Sec5vMCU      CURRENT    3.08    3.08  
+0/PT1     NCS4K-DC-PSU-V1   1.0   PM1-DT-Pri2MCU       CURRENT    3.02    3.02  
+0/PT1     NCS4K-DC-PSU-V1   1.0   PM1-DT-PriMCU        CURRENT    3.02    3.02  
+0/PT1     NCS4K-DC-PSU-V1   1.0   PM1-DT-Sec54v2MCU    CURRENT    3.01    3.01  
+0/PT1     NCS4K-DC-PSU-V1   1.0   PM1-DT-Sec54vMCU     CURRENT    3.01    3.01  
+0/PT1     NCS4K-DC-PSU-V1   1.0   PM1-DT-Sec5vMCU      CURRENT    3.08    3.08  
+0/PT1     NCS4K-DC-PSU-V1   1.0   PM2-DT-Pri2MCU       CURRENT    3.02    3.02  
+0/PT1     NCS4K-DC-PSU-V1   1.0   PM2-DT-PriMCU        CURRENT    3.02    3.02  
+0/PT1     NCS4K-DC-PSU-V1   1.0   PM2-DT-Sec54v2MCU    CURRENT    3.01    3.01  
+0/PT1     NCS4K-DC-PSU-V1   1.0   PM2-DT-Sec54vMCU     CURRENT    3.01    3.01  
+0/PT1     NCS4K-DC-PSU-V1   1.0   PM2-DT-Sec5vMCU      CURRENT    3.08    3.08  
+0/PT1     NCS4K-DC-PSU-V1   1.0   PM3-DT-Pri2MCU       CURRENT    3.02    3.02  
+0/PT1     NCS4K-DC-PSU-V1   1.0   PM3-DT-PriMCU        CURRENT    3.02    3.02  
+0/PT1     NCS4K-DC-PSU-V1   1.0   PM3-DT-Sec54v2MCU    CURRENT    3.01    3.01  
+0/PT1     NCS4K-DC-PSU-V1   1.0   PM3-DT-Sec54vMCU     CURRENT    3.01    3.01  
+0/PT1     NCS4K-DC-PSU-V1   1.0   PM3-DT-Sec5vMCU      CURRENT    3.08    3.08  
+0/EC0     NCS4K-ECU         0.1   ECU-FPGA             CURRENT    3.01    3.01  
+RP/0/RP0:CHANGEME#
+RP/0/RP0:CHANGEME#Show platform 
+Wed Mar 25 18:25:05.635 UTC
+Node              Type                       State             Config state
+--------------------------------------------------------------------------------
+0/RP0/CPU0        NCS4K-RP(Active)           IOS XR RUN        NSHUT
+0/RP1/CPU0        NCS4K-RP(Standby)          IOS XR RUN        NSHUT
+0/FC0             NCS4009-FC2F-S             OPERATIONAL       NSHUT
+0/FC1             NCS4009-FC2F-S             OPERATIONAL       NSHUT
+0/FC2             NCS4009-FC2F-S             OPERATIONAL       NSHUT
+0/FC3             NCS4009-FC2F-S             OPERATIONAL       NSHUT
+0/CI0             NCS4K-CRAFT                OPERATIONAL       NSHUT
+0/FT0             NCS4K-FTA                  OPERATIONAL       NSHUT
+0/FT2             NCS4009-FAN-FC             OPERATIONAL       NSHUT
+0/FT3             NCS4009-FAN-FC             OPERATIONAL       NSHUT
+0/FT4             NCS4009-FAN-FC             OPERATIONAL       NSHUT
+0/FT5             NCS4009-FAN-FC             OPERATIONAL       NSHUT
+0/PT0             NCS4K-DC-PEM               OPERATIONAL       NSHUT
+0/PT1             NCS4K-DC-PEM               OPERATIONAL       NSHUT
+0/EC0             NCS4K-ECU                  OPERATIONAL       NSHUT
+RP/0/RP0:CHANGEME#
+RP/0/RP0:CHANGEME#Show install sup 
+Wed Mar 25 18:25:05.864 UTC
+ Node 0/RP1 [RP]
+    Boot Partition: xr_lv0
+    Superseded Packages:
+        No fully superseded package(s) found on the system
+
+ Node 0/RP0 [RP]
+    Boot Partition: xr_lv0
+    Superseded Packages:
+        No fully superseded package(s) found on the system
+
+ Node 0/LC1 [LC]
+    Boot Partition: xr_lcp_lv0
+    Superseded Packages:
+        No fully superseded package(s) found on the system
+
+ Node 0/LC0 [LC]
+    Boot Partition: xr_lcp_lv0
+    Superseded Packages:
+        No fully superseded package(s) found on the system
+
+RP/0/RP0:CHANGEME#
+RP/0/RP0:CHANGEME#Show run 
+Wed Mar 25 18:25:06.835 UTC
+Building configuration...
+!! IOS XR Configuration version = 6.5.26
+!! Last configuration change at Wed Mar 25 16:54:28 2020 by CISCO15
+!
+hostname CHANGEME
+logging console disable
+telnet vrf default ipv4 server max-servers 99
+username CISCO15
+ group root-lr
+ group sysadmin
+ group cisco-support
+ secret 5 $1$J6Ox$tEGoGTVIwv3qgIQ7iOtgK/
+!
+line console
+ exec-timeout 0 0
+!
+line default
+ exec-timeout 10 0
+ width 110
+ length 100
+ session-limit 10
+ session-timeout 10
+ transport input all
+!
+vty-pool default 0 99 line-template default
+snmp-server ifindex persist
+ntp
+ server 192.168.1.254
+!
+call-home
+ service active
+ contact smart-licensing
+ profile CiscoTAC-1
+  active
+  destination transport-method http
+ !
+!
+ipv4 virtual address 192.168.1.3/24
+ipv4 virtual address use-as-src-addr
+interface Loopback0
+ ipv4 address 1.1.1.1 255.255.255.255
+!
+interface MgmtEth0/RP0/CPU0/0
+ ipv4 address 192.168.1.1 255.255.255.0
+!
+interface MgmtEth0/RP0/EMS/0
+ shutdown
+!
+interface MgmtEth0/RP0/CRAFT/0
+ shutdown
+!
+interface MgmtEth0/RP1/CPU0/0
+ ipv4 address 192.168.1.2 255.255.255.0
+!
+interface MgmtEth0/RP1/EMS/0
+ shutdown
+!
+interface MgmtEth0/RP1/CRAFT/0
+ shutdown
+!
+router static
+ address-family ipv4 unicast
+  0.0.0.0/0 192.168.1.0
+ !
+!
+router ospf OTN
+ nsr
+ router-id 192.168.1.3
+ nsf ietf
+ default-information originate
+ redistribute static
+ area 0
+  mpls traffic-eng
+  interface Loopback0
+   passive disable
+  !
+ !
+ mpls traffic-eng router-id 192.168.1.3
+!
+mpls traffic-eng
+ gmpls optical-nni
+  topology instance ospf OTN area 0
+  !
+ !
+!
+xml agent tty
+!
+http server
+netconf agent tty
+!
+end
+
+RP/0/RP0:CHANGEME#
+RP/0/RP0:CHANGEME#
+RP/0/RP0:CHANGEME#
+RP/0/RP0:CHANGEME#reload
+Wed Mar 25 18:25:13.205 UTC
+
+Preparing system for backup. This may take a few minutes especially for large configurations.
+        Status report: node0_RP0_CPU0: BACKUP INPROGRESS 
+        Status report: node0_RP0_CPU0: BACKUP HAS COMPLETED SUCCESSFULLY 
+[Done]
+
+Proceed with reload?  [confirm]
+
+RP/0/RP0:CHANGEME#
+RP/0/RP0:CHANGEME#
+RP/0/RP0:CHANGEME#
+RP/0/RP0:CHANGEME#reload loc all
+Wed Mar 25 18:25:22.585 UTC
+
+Preparing system for backup. This may take a few minutes especially for large configurations.
+        Status report: node0_RP0_CPU0: BACKUP INPROGRESS 
+        Status report: node0_RP0_CPU0: BACKUP HAS COMPLETED SUCCESSFULLY 
+[Done]
+
+Proceed with reload?  [confirm]
+Reloading node  all 
+RL: Reboot initiated with code 1, cause User initiated graceful reload reboot_timeout 30 shutdown delay 0
+RL: Shutdown initiated
+Query the node to be reloaded 
+ NODE_IP of noded to be reloaded 192.0.44.4
+sending stop hb
+Cause: User initiated graceful reload
+VM IP addr sent for reload 192.0.44.4
+
+
+Received ack from sdrmgr for reload request.Returncode:0
+successful disconnection from service 
+wd_disconnect_cb 529 CMP-WD disconnected successfully
+Invmgr successful disconnection from service
+RP/0/RP0:CHANGEME#
+Password: Starting udev: [  OK  ]
+Entering non-interactive startup
+Bringing up loopback interface:  [  OK  ]
+Starting system logger: [  OK  ]
+Starting kernel logger: [  OK  ]
+Starting system message bus: [  OK  ]
+Starting smartd: [FAILED]
+Starting sshd: sshd start/running, process 2570
+Successful
+Starting xinetd: [  OK  ]
+cmdline = root=LABEL=XR platform=scapa boardtype=RP vmtype=xr-vm console=tty0 console=hvc0 prod=1 crashkernel=0 bigphysarea=200M quiet cgroup_disable=memory pci=hpmemsize=0M,hpiosize=0M
+Starting lighttpd: [  OK  ]
+Starting crond: [  OK  ]
+Starting libvirtd daemon: [  OK  ]
+Starting auditd: [  OK  ]
+
+DBG_MSG: platform type is 0
+
+
+ios con0/RP0/CPU0 is now available
+
+
+
+
+
+Press RETURN to get started.
+
+RP/0/RP0:Mar 25 18:27:05.231 UTC: rmf_svr[265]: %PKT_INFRA-FM-3-FAULT_MAJOR : ALARM_MAJOR :RP-RED-LOST-NNR :DECLARE :0/RP0:  
+LC/0/LC0:Mar 25 18:26:42.591 UTC: rmf_svr[226]: %PKT_INFRA-FM-3-FAULT_MAJOR : ALARM_MAJOR :RP-RED-LOST-NNR :DECLARE :0/LC0:  
+LC/0/LC0:Mar 25 18:26:44.095 UTC: rmf_svr[226]: %PKT_INFRA-FM-3-FAULT_MAJOR : ALARM_MAJOR :RP-RED-LOST-NSFNR :DECLARE :0/LC0:  
+LC/0/LC1:Mar 25 18:28:18.376 UTC: fia_driver[236]: %PLATFORM-OFA-1-FATAL_ERR : Error opening the ofa_core_platform_init PD DLL. 22, libbcmdpa_pd.so: cannot open shared object file: No such file or directory 
+LC/0/LC0:Mar 25 18:28:04.507 UTC: fia_driver[297]: %PLATFORM-OFA-1-FATAL_ERR : Error opening the ofa_core_platform_init PD DLL. 22, libbcmdpa_pd.so: cannot open shared object file: No such file or directory 
+
+
+
+
+
+
+This product contains cryptographic features and is subject to United 
+States and local country laws governing import, export, transfer and 
+use. Delivery of Cisco cryptographic products does not imply third-party 
+authority to import, export, distribute or use encryption. Importers, 
+exporters, distributors and users are responsible for compliance with 
+U.S. and local country laws. By using this product you agree to comply 
+with applicable laws and regulations. If you are unable to comply with 
+U.S. and local laws, return this product immediately. 
+
+A summary of U.S. laws governing Cisco cryptographic products may be 
+found at:
+http://www.cisco.com/wwl/export/crypto/tool/stqrg.html
+
+If you require further assistance please contact us by sending email to 
+export@cisco.com.
+
+
+
+RP/0/RP0:Mar 25 18:29:26.252 UTC: rmf_svr[265]: %PKT_INFRA-FM-3-FAULT_MAJOR : ALARM_MAJOR :RP-RED-LOST-NSRNR :DECLARE :0/RP0:  
+
+
+
+SYSTEM CONFIGURATION IN PROCESS
+
+
+The startup configuration for this device is presently loading.
+This may take a few minutes. You will be notified upon completion.
+
+Please do not attempt to reconfigure the device until this process is complete.
+
+User Access Verification
+
+Username: 
+Username: 
+
+
+User Access Verification
+
+Username: 
+Username: CISCO15
+
+SYSTEM CONFIGURATION COMPLETED
+
+
+Password: 
+
+
+RP/0/RP0:CHANGEME#
+RP/0/RP0:CHANGEME#
+RP/0/RP0:CHANGEME#
+RP/0/RP0:CHANGEME#

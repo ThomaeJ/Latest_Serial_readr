@@ -1,0 +1,1 @@
+"C:\Serial_Reader-master\Serial_Reader\Serial_readr.py"
